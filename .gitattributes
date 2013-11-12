@@ -1,0 +1,16 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-ukr.pc.in -text
+/apertium-ukr.post-ukr.dix -text
+/apertium-ukr.ukr.acx -text
+/apertium-ukr.ukr.dix -text
+/apertium-ukr.ukr.rlx -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
+/ukr.prob -text

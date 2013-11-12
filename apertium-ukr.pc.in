@@ -1,0 +1,9 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ukr
+srcdir=@datarootdir@/apertium/apertium-ukr
+
+Name: apertium-ukr
+Description: Finite-state morphological transducer and constraint grammar for Ukrainian 
+Version: @VERSION@
