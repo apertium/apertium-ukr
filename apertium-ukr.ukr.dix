@@ -623,7 +623,7 @@
       <e><p><l>його</l><r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ним</l><r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ньому</l><r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>нім</l><r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/><s n="pprep"/></r></p></e>
+<!--      <e><p><l>нім</l><r>він<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/><s n="pprep"/></r></p></e>-->
       <e><p><l>вона</l><r>вона<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>її</l><r>вона<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>неї</l><r>вона<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/><s n="pprep"/></r></p></e>
@@ -639,7 +639,7 @@
       <e><p><l>його</l><r>воно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ним</l><r>воно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ньому</l><r>воно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>нім</l><r>воно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="pprep"/></r></p></e>
+      <!--<e><p><l>нім</l><r>воно<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="pprep"/></r></p></e>-->
       <e><p><l>вони</l><r>вони<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>їх</l><r>вони<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
       <e><p><l>них</l><r>вони<s n="prn"/><s n="pers"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="gen"/><s n="pprep"/></r></p></e>
@@ -1275,17 +1275,19 @@
     </pardef>
   
     <pardef n="казна-скільк/и__prn">
-    <!-- nie wiadomo ile ~ ilekolwiek --><e><p><l>и</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>и</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ох</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ох</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>ом</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ох</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
-      <e><p><l>ома</l><r>и<s n="prn"/><s n="qnt"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+    <!-- nie wiadomo ile ~ ilekolwiek -->
+      <e><p><l>и</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>и</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ох</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ох</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ом</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ох</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ома</l><r>и<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
   
     <pardef n="хтось__prn">
-    <!-- ktoś --><e><p><l>хтось</l><r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+    <!-- ktoś -->
+      <e><p><l>хтось</l><r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>когось</l><r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>комусь</l><r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
       <e><p><l>когось</l><r>хтось<s n="prn"/><s n="ind"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
