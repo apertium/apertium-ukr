@@ -1224,12 +1224,13 @@
     <!--CHECK: багато - has meanings of noun (declinable), numeral (declinable); adverb, predicative, aux word (indeclinable). nominative of багато requires genetive of the second word and <pl> for countables and <sg> for mass. oblique cases of багато agree with the head word in case & number. --> 
     <pardef n="багат/о__prn">
     <!-- wiele -->
-      <e><p><l>о</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
-      <e><p><l>ьом</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
-      <e><p><l>ьма</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
-      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>о</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ьом</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>о</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ьма</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>ьох</l><r>о<s n="prn"/><s n="ind"/><s n="mfn"/><s n="an"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
   
     <pardef n="багат/о__det">
