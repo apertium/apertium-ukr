@@ -59,7 +59,6 @@
     <sdef n="pers" 	c=""/>
     <sdef n="past" 	c="минулий час"/>
     <sdef n="nonpast" 	c="Present/future form for dual aspect verbs"/>
-    <sdef n="cni" 	c=""/>
     <sdef n="imp" 	c="наказовий спосіб"/>
     <sdef n="impers" 	c=""/>
     <sdef n="inf" 	c="Інфінітив"/>
@@ -3051,8 +3050,7 @@
       <e><p><l>огтим</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="fut"/></r></p><par n="BASE__писатим\е_fut"/></e>
       <e><p><l>ож</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="pres"/></r></p><par n="BASE__писатим\е_fut"/></e>
    
-    <!--<e><p><l>іг<b/>би</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="cni"/><s n="m"/><s n="sg"/></r></p></e>
---><e><p><l>іг</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>іг</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ог</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/></r></p><par n="BASE__бу\ла_past"/></e>
       <e><p><l>ожучи</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
       <e><p><l>ігши</l><r>огти<s n="vbmod"/><s n="impf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -3067,10 +3065,6 @@
       <e><p><l>ститимете</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ститиме</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ститимуть</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>стив<b/>би</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="cni"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>стила<b/>б</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="cni"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>стило<b/>б</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="cni"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>стили<b/>б</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="cni"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>стьмо</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>сть</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>стьте</l><r>стити<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -27688,7 +27682,7 @@
     <e lm="загрожувати"><i>загрожу</i><par n="кошту/вати__vblex_impf_iv"/></e>
     <e lm="починати"><i>почина</i><par n="заробля/ти__vblex_impf_iv"/></e>
     <e lm="явитися"><i>яв</i><par n="подив/итися__vblex_perf_iv"/></e>
-    <e lm="проходити"><i>проход</i><par n="приход/ити__vblex_impf_iv"/></e>
+<!--    <e lm="проходити"><i>проход</i><par n="приход/ити__vblex_impf_iv"/></e>-->
     <e lm="проходити"><i>проход</i><par n="проход/ити__vblex_perf_iv"/></e>
     <e lm="уникнути"><i>уник</i><par n="уник/нути__vblex_perf_iv"/></e>
     <e lm="мусити"><i>му</i><par n="му/сити__vblex_impf_iv"/></e>
