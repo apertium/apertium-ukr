@@ -17816,7 +17816,6 @@
     <e lm="без"><i>без</i><par n="про__pr"/></e>
     <e lm="для"><i>для</i><par n="про__pr"/></e>
     <e lm="до"><i>до</i><par n="навпроти/__pr_gen"/></e>
-    <e lm="з"><i>з</i><par n="про__pr"/></e>
     <e lm="з-під"><i>з-під</i><par n="про__pr"/></e>
     <e lm="під"><i>під</i><par n="про__pr"/></e>
     <e lm="зовні"><i>зовні</i><par n="про__pr"/></e>
@@ -19183,9 +19182,21 @@
     <e lm="завдяки"><i>завдяки</i><par n="навпроти/__pr_gen"/></e>
     <e lm="поміж"><i>поміж</i><par n="над/__pr_ins"/></e>
     <e lm="поміж"><i>поміж</i><par n="навпроти/__pr_gen"/></e>
-    <e lm="із"><i>із</i><par n="навпроти/__pr_gen"/></e>
-    <e lm="із"><i>із</i><par n="на/__pr_acc"/></e>
-    <e lm="із"><i>із</i><par n="над/__pr_ins"/></e>
+
+    <e lm="з" r="LR"><p><l>зі</l><r>з</r></p><par n="навпроти/__pr_gen"/></e>
+    <e lm="з" r="LR"><p><l>зі</l><r>з</r></p><par n="над/__pr_ins"/></e>
+     <e lm="з" r="LR"><p><l>з</l><r>з</r></p><par n="навпроти/__pr_gen"/></e>
+    <e lm="з" r="LR"><p><l>з</l><r>з</r></p><par n="над/__pr_ins"/></e>
+     <e lm="з" r="LR"><p><l>із</l><r>з</r></p><par n="навпроти/__pr_gen"/></e>
+    <e lm="з" r="LR"><p><l>із</l><r>з</r></p><par n="над/__pr_ins"/></e>
+
+<!--    <e lm="з" r="LR"><p><l>зі</l><r>з</r></p><par n="на/__pr_acc"/></e>
+    <e lm="з" r="LR"><p><l>з</l><r>з</r></p><par n="на/__pr_acc"/></e>
+    <e lm="з" r="LR"><p><l>із</l><r>з</r></p><par n="на/__pr_acc"/></e>
+    <e lm="з" r="RL"><p><l><a/>із</l><r>з</r></p><par n="на/__pr_acc"/></e>-->
+
+     <e lm="з" r="RL"><p><l><a/>з</l><r>з</r></p><par n="навпроти/__pr_gen"/></e>
+    <e lm="з" r="RL"><p><l><a/>з</l><r>з</r></p><par n="над/__pr_ins"/></e>
   
     <!--pr+adv--><e lm="близько"><i>близько</i><par n="/__pr_adv"/></e>
     <e lm="перед"><i>перед</i><par n="/__pr_adv"/></e>

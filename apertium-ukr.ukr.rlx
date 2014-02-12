@@ -163,3 +163,11 @@ SELECT Sg3 IF (0 BUTI) (-1 Pron + Gen LINK -1 ("у"));
 
 SELECT ("рік") IF (0 ("рок") OR ("рік")) ;
     ## 2015 року Національному фонду виповниться 120 років.
+
+SELECT $$CASE IF (0C A) (0 A + $$CASE + $$NUMBER) (1C N + $$CASE + $$NUMBER);
+
+SELECT $$CASE IF (0C A) (0 A + $$CASE + $$NUMBER) (1 A + $$CASE + $$NUMBER) (2C N + $$CASE + $$NUMBER);
+
+# This is really fragile
+REMOVE Gen IF (0 ("у")) (NOT 1 Pron + Gen);
+   ## Виконавчий директор організації Гелен Ґош в інтерв’ю британським ЗМІ після призначення наголошувала на зв’язках з громадськістю.
