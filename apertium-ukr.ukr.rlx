@@ -43,6 +43,9 @@ LIST Past = past ;
 LIST Pres = pres ;
 LIST Fut = fut ;
 
+LIST TV = tv ; 
+LIST IV = iv ; 
+
 LIST CASE = nom gen dat acc ins loc voc ;
 
 LIST GENDER = m f nt mf mfn ;
@@ -50,6 +53,8 @@ LIST NUMBER = sg pl sp ;
 LIST ANIMAC = aa nn an ;
 
 LIST ADV-NEG = "ніде" ;
+
+LIST ADV-GEN = "найбільше" ; 
 
 LIST BUTI = "бути";
 
@@ -171,3 +176,13 @@ SELECT $$CASE IF (0C A) (0 A + $$CASE + $$NUMBER) (1 A + $$CASE + $$NUMBER) (2C 
 # This is really fragile
 REMOVE Gen IF (0 ("у")) (NOT 1 Pron + Gen);
    ## Виконавчий директор організації Гелен Ґош в інтерв’ю британським ЗМІ після призначення наголошувала на зв’язках з громадськістю.
+
+SELECT Gen IF (-1C ADV-GEN) (0C Gen OR Acc); 
+   ## Найбільше таких коментаторів в Києві.
+
+AFTER-SECTIONS
+
+REMOVE Voc IF (0C Nom OR Acc OR Voc);
+SELECT Acc IF (-1 TV) (0C Nom OR Acc);
+SELECT Nom IF (NOT -1 TV) (0C Nom OR Acc);
+SELECT $$CASE (-1 $$CASE);
