@@ -38,6 +38,9 @@ LIST Masc = m ;
 LIST Neu = nt ; 
 
 LIST Sg3 = (p3 sg);
+LIST Pl3 = (p3 pl);
+
+LIST 3p = (p3);
 
 LIST Past = past ;
 LIST Pres = pres ;
@@ -194,8 +197,11 @@ REMOVE Pr (1 EOS) ;
 
 AFTER-SECTIONS
 
-REMOVE Voc IF (0 Nom OR Acc OR Voc);
-SELECT Acc IF (-1 TV) (0C Nom OR Acc);
-SELECT Nom IF (NOT -1 TV) (0C Nom OR Acc);
-SELECT $$CASE + $$GENDER (-1 $$CASE + $$GENDER);
-SELECT $$CASE + $$GENDER (1C $$CASE + $$GENDER);
+REMOVE:h001 Voc IF (0 Nom OR Acc OR Voc);
+SELECT:h002 Acc IF (-1 TV) (0C Nom OR Acc);
+SELECT:h003 Nom IF (NOT -1 TV) (0C Nom OR Acc);
+SELECT:h004 $$CASE + $$GENDER (-1 $$CASE + $$GENDER);
+SELECT:h005 $$CASE + $$GENDER (1C $$CASE + $$GENDER);
+
+SELECT:h006 3p IF (0C BUTI LINK 0 Pres) ; 
+   ## На думку фахівців, знайдені боєприпаси є фугасною авіаційною бомбою німецького виробництва.
