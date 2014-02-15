@@ -2976,7 +2976,7 @@
   
     <pardef n="пи/сати__vblex_impf_tv">
       <e><p><l>сати</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="inf"/></r></p></e>
-      <e><p><l>ш</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/></r></p><par n="BASE__йд\и_imp"/></e>
+      <e><p><l>ш</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/></r></p><par n="BASE__йд\и_imp"/></e>
       <e><p><l>сано</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="impers"/></r></p></e>
       <e><p><l>савши</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>шучи</l><r>сати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -2989,7 +2989,7 @@
  
     <pardef n="пи/сати__vblex_impf_iv">
       <e><p><l>сати</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="inf"/></r></p></e>
-      <e><p><l>ш</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="imp"/></r></p><par n="BASE__йд\и_imp"/></e>
+      <e><p><l>ш</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/></r></p><par n="BASE__йд\и_imp"/></e>
       <e><p><l>сано</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="impers"/></r></p></e>
       <e><p><l>савши</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pp"/><s n="adv"/></r></p></e>
       <e><p><l>шучи</l><r>сати<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
