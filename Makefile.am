@@ -7,18 +7,16 @@ VERSION=0.1.0
 LANG1=ukr
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1).autopgen.bin \
-	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).prob \
-        $(LANG1).rlx.bin
+TARGETS_COMMON =			\
+	$(LANG1).automorf.bin		\
+	$(LANG1).automorf.att.gz	\
+	$(LANG1).autogen.bin		\
+	$(LANG1).autogen.att.gz		\
+	$(LANG1).autopgen.bin		\
+	$(LANG1).rlx.bin
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	touch $@
-
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
+# This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Ukrainian transducer
@@ -32,17 +30,17 @@ $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
-	lt-comp lr $< $@ 
-
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c -n > $@
 
+$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $< $@
+
 ###############################################################################
-## Disambiguation rules 
+## Disambiguation rules
 ###############################################################################
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
@@ -51,12 +49,12 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 ###############################################################################
 ## Distribution
 ###############################################################################
-EXTRA_DIST=$(BASENAME).$(LANG1).dix \
-	   $(BASENAME).post-$(LANG1).dix \
-	   $(BASENAME).$(LANG1).acx \
-	   $(BASENAME).$(LANG1).rlx \
-	   $(LANG1).prob \
-	   modes.xml
+EXTRA_DIST=$(BASENAME).$(LANG1).dix		\
+		$(BASENAME).$(LANG1).acx	\
+		$(BASENAME).$(LANG1).rlx	\
+		$(BASENAME).post-$(LANG1).dix	\
+		$(LANG1).prob			\
+		modes.xml
 
 ###############################################################################
 ## Installation stuff
@@ -68,7 +66,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_ukrdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_ukr_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_ukr_DATA=$(TARGETS_COMMON)
+apertium_ukr_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -85,7 +83,19 @@ install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_ukr_srcdir) || mkdir -p $(DESTDIR)$(apertium_ukr_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_ukr_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ukr_srcdir)
+	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_ukr_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
 	-rm -rf .deps modes
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "TODO test sentence" | apertium -d . ukr-morph | tee .test-mt
+	@echo "TODO test analysis results" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt
+
