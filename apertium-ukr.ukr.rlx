@@ -155,13 +155,13 @@ SELECT Gen IF (0* ("бути"i) + (neg) BARRIER BOS | EOS | CMSEMIC)
     ## Она заглядывает под стол и под стулья, но Вани нигде нет.
 
 # Preposition based case disambiguation:
-REMOVE:Case Pr + $$CASE IF (1C Nomen - $$CASE)
-REMOVE:Case Nomen + $$CASE IF (-1C Pr - $$CASE)
+REMOVE:Case Pr + $$CASE IF (1C Nomen - $$CASE) ;
+REMOVE:Case Nomen + $$CASE IF (-1C Pr - $$CASE) ; 
 # Modifier based case, number disambiguation:
-REMOVE:Case Nomen + $$CASE IF (-1C Modifier - $$CASE)
-REMOVE:Number Nomen + $$NUMBER IF (-1C Modifier - $$NUMBER)
+REMOVE:Case Nomen + $$CASE IF (-1C Modifier - $$CASE) ;
+REMOVE:Number Nomen + $$NUMBER IF (-1C Modifier - $$NUMBER) ;
     ## в садку. у садку. у вікно. в хату. навпроти великого будинку. на своє питання
-REMOVE:Case Pr + $$CASE IF (1C Modifier - $$CASE)   # CHECK
+REMOVE:Case Pr + $$CASE IF (1C Modifier - $$CASE) ;  # CHECK
 
 REMOVE:Locative Nomen + Loc IF (0 Dat OR Loc) (NOT -1 Pr + Loc) (NOT -1C Modifier + Loc);
 
