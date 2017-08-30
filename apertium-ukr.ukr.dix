@@ -11647,8 +11647,8 @@
       <e><p><l>й</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>йте</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>вши</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="adv"/></r></p></e>
-      <e><p><l>н</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e>
-      <e><p><l>н</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e>
+      <!-- <e><p><l>н</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e> -->
+      <!-- <e><p><l>н</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e> -->
       <e><p><l>в</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ла</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ло</l><r>ти<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -14211,14 +14211,14 @@
       <e><p><l>ало</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>али</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>ачи</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
-      <e><p><l>ущ</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__англійськ/ий"/></e>
+      <!-- <e><p><l>ущ</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="actv"/></r></p><par n="BASE__англійськ/ий"/></e> -->
       <e><p><l>у</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>имо</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>иш</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ите</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ить</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ать</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ен</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e>
+      <!-- <e><p><l>ен</l><r>ати<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e> -->
     </pardef>
   
     <pardef n="збер/егти__vblex_perf_tv">
@@ -17037,7 +17037,7 @@
       <e><p><l>мо</l><r>сти<s n="vblex"/><s n="perf"/><s n="tv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l></l><r>сти<s n="vblex"/><s n="perf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>те</l><r>сти<s n="vblex"/><s n="perf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ден</l><r>сти<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e>
+      <!-- <e><p><l>ден</l><r>сти<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e> -->
     </pardef>
   
     <pardef n="досяг/ти__vblex_perf_tv">
@@ -19462,7 +19462,7 @@
     <e lm="знищувати" c="check"><i>знищ</i><par n="виголош/увати__vblex_impf_tv"/></e>
     <e lm="лікувати" c="check"><i>лік</i><par n="виголош/увати__vblex_impf_tv"/></e>
     <e lm="нагадувати" c="check"><i>нагад</i><par n="виголош/увати__vblex_impf_tv"/></e>
-    <e lm="ночувати" c="check"><i>ноч</i><par n="виголош/увати__vblex_impf_tv"/></e>
+    <e lm="ночувати" c="check"><i>ноч</i><par n="кер/увати__vblex_impf_iv"/></e>
     <e lm="оголошувати" c="check"><i>оголош</i><par n="виголош/увати__vblex_impf_tv"/></e>
     <e lm="перевищувати" c="check"><i>перевищ</i><par n="виголош/увати__vblex_impf_tv"/></e>
     <e lm="переконувати" c="check"><i>перекон</i><par n="виголош/увати__vblex_impf_tv"/></e>
