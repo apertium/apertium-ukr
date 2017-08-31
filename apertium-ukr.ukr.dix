@@ -91,14 +91,15 @@
     <sdef n="rpar" 	c="Right parenthesis"/>
     <sdef n="lquot" 	c="Left quote"/>
     <sdef n="rquot" 	c="Right quote"/>
-    <sdef n="guio" 	c="Hyphen"/>    
+    <sdef n="guio" 	c="Hyphen"/>
+    <sdef n="percent"  c=""/>    
   </sdefs>
   <pardefs>     
     <!-- SECTION: Punctuation -->  
     <pardef n="numeros">
       <e><re>№[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
-      <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[№%]?[0-9]+([.,][0-9]+)* ?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
     </pardef>
@@ -1603,14 +1604,14 @@
     <pardef n="англійськ/ий__adj">
       <e><p><l></l><r>ий<s n="adj"/></r></p><par n="BASE__англійськ/ий"/></e>
       <e><p><l>о-</l><r>ий<s n="adj"/><s n="cmp"/></r></p></e>
-      <e><p><l>іший</l><r>ий<s n="adj"/><s n="comp"/></r></p></e> <!-- general: need rules for -к, -ок, -ек endings -->
+      <e><p><l>іший</l><r>ий<s n="adj"/><s n="comp"/></r></p><par n="BASE__англійськ/ий"/></e> <!-- general: need rules for -к, -ок, -ек endings -->
 
     </pardef>
  
     <pardef n="осінн/ій__adj">
       <e><p><l></l><r>ій<s n="adj"/></r></p><par n="BASE__осінн/ій"/></e>
       <e><p><l>о-</l><r>ій<s n="adj"/><s n="cmp"/></r></p></e>
-      <e><p><l>іший</l><r>ій<s n="adj"/><s n="comp"/></r></p></e> <!-- general: need rules for -к, -ок, -ек endings -->
+      <e><p><l>іший</l><r>ій<s n="adj"/><s n="comp"/></r></p><par n="BASE__осінн/ій"/></e> <!-- general: need rules for -к, -ок, -ек endings -->
     </pardef>
  
     <pardef n="нов/ий__adj">
