@@ -14418,7 +14418,7 @@
       <e><p><l>увала</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>увало</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ували</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>уючи</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <!-- <e><p><l>уючи</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e> -->
       <e><p><l>ую</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>уємо</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>уєш</l><r>увати<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -17298,7 +17298,7 @@
       <e><p><l>ила</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ило</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>или</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>ячи</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+      <!-- <e><p><l>ячи</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e> -->
       <e><p><l>ен</l><r>ити<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pp"/><s n="pasv"/></r></p><par n="BASE__англійськ/ий"/></e>
     </pardef>
   
