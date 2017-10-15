@@ -1524,7 +1524,7 @@
     </pardef>
 
     <pardef n="що_cnjsub">
-    <!-- co --><e><p><l></l><r>що<s n="cnjsub"/></r></p></e>
+    <!-- co --><e><p><l></l><r>що<s n="cnjsub"/></r></p><par n="BASE__що"/></e>
     </pardef>
  
     <pardef n="в/есь__prn_def">
